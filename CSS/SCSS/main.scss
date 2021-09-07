@@ -1,0 +1,20 @@
+@import "./vendor/resetCss";
+@import "./vendor/variables";
+
+html {
+    font-size: 10px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: $Montserrat;
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 13px;
+    margin: 0 auto;
+}
+
+@import "./components/hero";

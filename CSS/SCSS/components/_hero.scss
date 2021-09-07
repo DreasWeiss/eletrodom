@@ -1,0 +1,149 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background: url(".././IMG/hero_bg.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .hero_link {
+        width: 85vw;
+        padding: 46px 0 62px 0;
+        background: #212121;
+        box-shadow: 37px 2px 62px rgba(0, 0, 0, 0.25);
+        position: absolute;
+        top: 34.76;
+        right: 0;
+        z-index: 1;
+
+        p {
+            font-family: $Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 139.7%;
+            text-align: right;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.hero_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero_left {
+    width: 36%;
+    max-width: 442px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 65px 0 65px;
+    background: #212121;
+    box-shadow: 37px 2px 62px rgba(0, 0, 0, 0.25);
+    z-index: 999;
+
+    .logo {
+        margin-top: 40px;
+        width: 100%;
+        max-width: 275px;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 74.375%;
+        width: 50%;
+        max-width: 220px;
+        margin-top: 65px;
+        margin-bottom: 100px;
+
+        .item {
+            display: block;
+            width: 100%;
+            height: 130px;
+            max-width: 219px;
+            max-height: 133px;
+        }
+
+        .item1 {
+            background: url(".././IMG/hero/1.png") no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .item2 {
+            background: url(".././IMG/hero/2.png") no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .item3 {
+            background: url(".././IMG/hero/3.png") no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .item4 {
+            background: url(".././IMG/hero/4.png") no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .item5 {
+            background: url(".././IMG/hero/5.png") no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .item6 {
+            background: url(".././IMG/hero/6.png") no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+    }
+}
+
+.hero_right {
+    width: 64%;
+    max-width: 752px;
+
+    header {
+        display: flex;
+        justify-content: flex-end;
+        padding: 24px 0;
+
+        a {
+            text-decoration: none;
+            color: #000000;
+            font-family: $Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+
+            &:nth-child(1) {
+                margin-left: 57px;
+            }
+        }
+    }
+
+    .hero_right-title {
+        font-family: $Oswald;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 88px;
+        line-height: 124.7%;
+        text-align: right;
+        text-transform: uppercase;
+        margin-top: 110px;
+    }
+
+    .test{
+        
+    }
+}
