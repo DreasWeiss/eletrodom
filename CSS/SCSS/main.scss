@@ -11,6 +11,10 @@ body {
     width: 100%;
 }
 
+.wrapper {
+    overflow: hidden;
+}
+
 .container {
     width: 1200px;
     padding: 0 13px;
@@ -18,3 +22,5 @@ body {
 }
 
 @import "./components/hero";
+@import "./components/btns";
+@import "./components/about";

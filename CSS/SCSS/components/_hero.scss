@@ -3,28 +3,7 @@
     height: 100vh;
     background: url(".././IMG/hero_bg.jpg") no-repeat;
     background-size: cover;
-    position: relative;
-
-    .hero_link {
-        width: 85vw;
-        padding: 46px 0 62px 0;
-        background: #212121;
-        box-shadow: 37px 2px 62px rgba(0, 0, 0, 0.25);
-        position: absolute;
-        top: 34.76;
-        right: 0;
-        z-index: 1;
-
-        p {
-            font-family: $Montserrat;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 30px;
-            line-height: 139.7%;
-            text-align: right;
-            color: #FFFFFF;
-        }
-    }
+    overflow: hidden;
 }
 
 .hero_section {
@@ -112,6 +91,7 @@
 .hero_right {
     width: 64%;
     max-width: 752px;
+    z-index: 998;
 
     header {
         display: flex;
@@ -125,6 +105,7 @@
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
+            margin-right: 11px;
 
             &:nth-child(1) {
                 margin-left: 57px;
@@ -143,7 +124,38 @@
         margin-top: 110px;
     }
 
-    .test{
-        
+    .hero_right-link {
+        width: 100%;
+        z-index: 9999;
+        margin-top: 60px;
+
+        .hero_right-link2 {
+            width: 100%;
+            padding: 46px 0 62px 0;
+            position: relative;
+            z-index: 9999;
+            text-align: right;
+
+            &:before {
+                content: '';
+                width: 100vw;
+                height: 100%;
+                background: #212121;
+                box-shadow: 37px 2px 62px rgba(0, 0, 0, 0.25);
+                position: absolute;
+                top: 0;
+                left: -84%;
+                z-index: -1;
+            }
+
+            p {
+                font-family: $Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 139.7%;
+                color: #FFFFFF;
+            }
+        }
     }
 }
