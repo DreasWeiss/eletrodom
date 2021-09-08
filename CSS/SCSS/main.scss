@@ -21,7 +21,20 @@ body {
     margin: 0 auto;
 }
 
+.title {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 68px;
+    line-height: 101px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #111111;
+    margin-bottom: 83px;
+}
+
 @import "./components/hero";
 @import "./components/btns";
 @import "./components/about";
 @import "./components/production";
+@import "./components/_designers";
