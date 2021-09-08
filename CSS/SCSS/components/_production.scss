@@ -1,0 +1,218 @@
+.production {
+    .title {
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 68px;
+        line-height: 101px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #111111;
+        margin-bottom: 83px;
+    }
+
+    .production_items {
+        display: flex;
+        flex-direction: column;
+
+        .item {
+            display: flex;
+            align-items: flex-start;
+            position: relative;
+
+            .item-img {
+                width: 54%;
+                max-width: 636px;
+            }
+
+            .item-info {
+                padding-left: 72px;
+                padding-right: 10px;
+
+                .item-title {
+                    font-family: $Oswald;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 28px;
+                    line-height: 41px;
+                    letter-spacing: 0.02em;
+                    text-transform: uppercase;
+                    color: #5E7056;
+                }
+
+                .item-text {
+                    font-family: $Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 139.7%;
+                    color: #111111;
+                    margin-bottom: 29px;
+
+                    p {
+                        margin-top: 24px;
+                        margin-bottom: 24px;
+                    }
+                }
+            }
+        }
+
+        .item1 {
+            margin-bottom: 261px;
+
+            &::after {
+                content: 'Гармония: скоординированная, элегантная, безупречная.';
+                position: absolute;
+                display: block;
+                bottom: -85px;
+                right: 0;
+                width: 556px;
+                font-family: $Oswald;
+                font-style: normal;
+                font-weight: 200;
+                font-size: 40px;
+                line-height: 48px;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                color: #E0DEDE;
+            }
+        }
+
+        .item2 {
+            flex-direction: row-reverse;
+            margin-bottom: 261px;
+
+            &::before {
+                content: "чистота и простота форм. Прямые углы и строгие линии";
+                position: absolute;
+                display: block;
+                top: -140px;
+                left: 125px;
+                width: 556px;
+                font-family: $Oswald;
+                font-style: normal;
+                font-weight: 200;
+                font-size: 40px;
+                line-height: 48px;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                color: #E0DEDE;
+            }
+        }
+
+        .item3 {
+            margin-bottom: 125px;
+
+            &::before {
+                content: "Стильная продуманность мельчайших деталей";
+                position: absolute;
+                display: block;
+                top: -140px;
+                right: 100px;
+                width: 556px;
+                font-family: $Oswald;
+                font-style: normal;
+                font-weight: 200;
+                font-size: 40px;
+                line-height: 48px;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                color: #E0DEDE;
+            }
+        }
+    }
+
+    .production_link {
+        .link {
+            padding: 124px 0 157px;
+            text-align: center;
+            position: relative;
+
+            &:before {
+                content: '';
+                width: 10000px;
+                height: 100%;
+                background: #212121;
+                box-shadow: 37px 2px 62px rgba(0, 0, 0, 0.25);
+                position: absolute;
+                top: 0;
+                left: -50%;
+                z-index: -1;
+            }
+
+            a {
+                display: inline-block;
+                font-family: $Oswald;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 48px;
+                line-height: 71px;
+                text-decoration-line: underline;
+                text-transform: uppercase;
+                color: #FFFFFF;
+
+                span {
+                    margin-right: 27px;
+                }
+            }
+        }
+    }
+
+    .production_photos {
+        width: 1460px;
+        margin: 85px auto 93px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        img {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+
+        .img1 {
+            max-width: 460px;
+            height: 313px;
+        }
+
+        .img2 {
+            width: 471px;
+            height: 313px;
+        }
+
+        .img3 {
+            width: 471px;
+            height: 313px;
+        }
+
+        .img4 {
+            width: 403px;
+            height: 401px;
+        }
+
+        .img5 {
+            width: 403px;
+            height: 401px;
+        }
+
+        .img6 {
+            width: 600px;
+            height: 401px;
+        }
+
+        .img7 {
+            width: 460px;
+            height: 329px;
+        }
+
+        .img8 {
+            width: 460px;
+            height: 329px;
+        }
+
+        .img9 {
+            width: 460px;
+            height: 329px;
+        }
+    }
+}
